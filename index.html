@@ -4,92 +4,12 @@
   <meta charset="UTF-8" />
   <title>🇹🇭 태국 여행 일정</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #f2f3f5;
-      color: #222;
-    }
-
-    header {
-      padding: 24px 16px;
-      text-align: center;
-      background: linear-gradient(135deg, #ff9f43, #feca57);
-      color: #fff;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 22px;
-    }
-
-    header p {
-      margin-top: 6px;
-      font-size: 14px;
-      opacity: 0.9;
-    }
-
-    main {
-      padding: 16px;
-      max-width: 720px;
-      margin: auto;
-    }
-
-    .day {
-      background: #fff;
-      border-radius: 16px;
-      padding: 16px;
-      margin-bottom: 16px;
-      box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-    }
-
-    .day h2 {
-      margin: 0 0 12px;
-      font-size: 18px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    li {
-      margin-bottom: 10px;
-      padding: 10px 12px;
-      background: #f7f7f7;
-      border-radius: 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 15px;
-      gap: 8px;
-    }
-
-    .map-btn {
-      text-decoration: none;
-      font-size: 13px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: #ff9f43;
-      color: #fff;
-      white-space: nowrap;
-      flex-shrink: 0;
-    }
-
-    footer {
-      text-align: center;
-      padding: 20px 10px 30px;
-      font-size: 13px;
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <header>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
     <h1>🇹🇭 태국 여행 일정</h1>
     <p>Bangkok · Mobile Travel Planner</p>
   </header>
@@ -206,5 +126,6 @@
   <footer>
     ✨ 이 페이지 하나로 태국 여행 끝 ✨<br />
   </footer>
+  <script src="main.js"></script>
 </body>
 </html>
